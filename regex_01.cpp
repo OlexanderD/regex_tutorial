@@ -18,11 +18,9 @@ int main()
 		//Exit when the user inputs q
 		if(input=="q")
 			break;
-		if(regex_match(input,integer))
+		else if(regex_match(input,integer))
 			cout<<"integer"<<endl;
 		else
-		{
 			cout<<"Invalid input"<<endl;
-		}
 	}
 }
